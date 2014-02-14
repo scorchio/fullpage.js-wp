@@ -38,6 +38,8 @@ function fullpage_register_ctype() {
 function fullpage_enqueue_scripts() {
   if (is_single() && get_query_var('fullpage')) {
     wp_enqueue_script('jquery');
+    wp_enqueue_script('jquery-ui');
+    wp_enqueue_script("jquery-effects-core");
     wp_enqueue_script('fullpage', plugins_url('/js/jquery.fullPage.min.js', __FILE__));
     wp_enqueue_script('fullpage-init', plugins_url('/js/fullPage-init.js', __FILE__));
     wp_enqueue_style('fullpage-css', plugins_url('/js/jquery.fullPage.css', __FILE__));
