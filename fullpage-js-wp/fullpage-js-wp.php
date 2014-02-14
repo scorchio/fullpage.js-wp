@@ -40,7 +40,7 @@ function fullpage_enqueue_scripts() {
     wp_enqueue_script('jquery');
     wp_enqueue_script('fullpage', plugins_url('/js/jquery.fullPage.min.js', __FILE__));
     wp_enqueue_script('fullpage-init', plugins_url('/js/fullPage-init.js', __FILE__));
-    wp_enqueue_script('fullpage-css', plugins_url('/js/jquery.fullPage.css', __FILE__));
+    wp_enqueue_style('fullpage-css', plugins_url('/js/jquery.fullPage.css', __FILE__));
   }
 }
 
