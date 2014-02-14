@@ -1,5 +1,7 @@
-$(document).ready(function() {
-    $.fn.fullpage({
+var $j = jQuery.noConflict();
+
+$j(document).ready(function() {
+    $j.fn.fullpage({
         verticalCentered: true,
         resize : true,
         slidesColor : ['#ccc', '#fff'],
