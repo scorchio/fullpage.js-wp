@@ -1,9 +1,5 @@
 <?php
 /**
- * Fullpage.js
- *
- * WP immplementation for Alvaro Trigo's Fullpage.js library.
- *
  * Plugin Name:       Fullpage.js
  * Description:       WP immplementation for Alvaro Trigo's Fullpage.js library.
  * Version:           1.0.0
